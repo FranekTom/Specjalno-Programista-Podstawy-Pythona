@@ -1,0 +1,7 @@
+print('Sprawdzimy czy podana przez Ciebie liczba jest podzielna przez 3 lub 5')
+x = int(input('Wprowadź liczbę:\n '))
+
+if x%3 == 0 or x % 5 == 0:
+  print('Jest podzielna')
+else:
+  print('Nie jest podzielna')
