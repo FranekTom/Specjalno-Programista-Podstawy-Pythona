@@ -1,0 +1,15 @@
+import matplotlib as mpl # rysowanie wykresu
+import matplotlib.pyplot as plt
+
+a = 2
+b = 1
+x = range(0,20)  # lista argumentów x
+
+y = []  # lista wartości
+for i in x:
+    y.append(a ** i - b)
+
+plt.plot(x, y)
+plt.title('Wykres f(x) = a**x - b')
+plt.grid(True)
+plt.savefig('zad20.png')
