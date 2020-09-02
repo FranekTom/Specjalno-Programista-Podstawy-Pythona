@@ -1,0 +1,5 @@
+name = 'Franek'
+index1 = 0
+index2 = -1
+print (name[index1]) #index1 = 0, print(name[0])
+print (name[index2]) #index2 = -1, print(name[-1])
