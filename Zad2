@@ -1,0 +1,10 @@
+imie = input("Podaj swoje imie: \n").lower()
+
+wyjatki = ["kuba",'barnaba']
+
+if imie in wyjatki:
+  print ("Jesteś mężczyzną")
+elif imie[-1] == "a":
+  print ("Jesteś kobietą")
+else:
+  print ("Jesteś mężczyzną")
