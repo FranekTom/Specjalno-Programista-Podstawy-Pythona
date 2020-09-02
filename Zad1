@@ -1,0 +1,3 @@
+x = int(input('podaj pierwszą\n'))
+y = int(input('podaj drugą\n'))
+print ('iloczyn liczb',x*y)
