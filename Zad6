@@ -1,0 +1,12 @@
+import random as r
+#program losujący 6 liczb od 1 do 49 
+lis = []
+
+for i in range(6):
+  s=r.randrange(1,7)
+  if s not in lis:
+    lis.append(s)
+    s=r.randrange(1,7)
+    
+
+print(lis)
