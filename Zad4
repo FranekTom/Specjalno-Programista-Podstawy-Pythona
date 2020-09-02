@@ -1,2 +1,6 @@
 import calendar as c # kalendarz
-print(c.month(2020,9))
+
+year= int(input('Podaj rok\n'))
+month = int(input('Podaj numer miesiąca\n'))
+
+print(c.month(year,month))
